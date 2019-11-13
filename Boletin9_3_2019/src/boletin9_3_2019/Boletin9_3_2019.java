@@ -15,7 +15,15 @@ public class Boletin9_3_2019 {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+       
+        Area rectangulo1 =new Area();
+        
+       rectangulo1.calculo_area();
+        
+        
+        
+        
+        
     }
     
 }
