@@ -51,6 +51,23 @@ public class Cadena_B {
                 a = true;
             }
         }
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
     }
 
 }

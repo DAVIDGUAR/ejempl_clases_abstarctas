@@ -13,7 +13,7 @@ import javax.swing.JOptionPane;
  */
 public class Cadena_A {
 
-    private int elementos;
+    private int elementos, sumatorio = 1;
     private int incremento = 2;
     private boolean a = true;
 
@@ -27,22 +27,23 @@ public class Cadena_A {
             elementos = Integer.parseInt(JOptionPane.showInputDialog("Introduce o numero de elementos"));
 
             if (elementos > 0) {
-                
-                
+
                 for (int i = 0; i < elementos; i++) {
 
                     int operacion = i + incremento;
                     incremento++;
-                    System.out.println(operacion);
+                    System.out.print(operacion+" , ");
                     a = false;
-
+                    sumatorio += operacion;
                 }
-            }else{
-                
-                JOptionPane.showMessageDialog(null,"Numero no valido, prueba otra vez");
-                a=true;
+            } else {
+
+                JOptionPane.showMessageDialog(null, "Numero no valido, prueba otra vez");
+                a = true;
             }
         }
+        
+        System.out.println("\nSumatorio de la cadena es : "+sumatorio);
     }
 
 }

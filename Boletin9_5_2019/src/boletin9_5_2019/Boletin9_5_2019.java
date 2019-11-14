@@ -15,14 +15,15 @@ public class Boletin9_5_2019 {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-       
+     
         Cadena_A obx1=new Cadena_A();
-        
-       // obx1.comprobar_cadena_A();
+       obx1.comprobar_cadena_A();
         
         Cadena_B obx2=new Cadena_B();
-        obx2.comprobar_cadena_B();
-        
+        //obx2.comprobar_cadena_B();
+      
+        Cadena_C obx3=new Cadena_C();
+        obx3.comprobar_cadena_C();
     }
     
 }
