@@ -29,12 +29,14 @@ public class Tabla {
             
              System.out.println("Table del numero "+num);
 
-            for (int i = 0; i < (num+1); i++) {
+            for (int i = 0; i < 11; i++) {
 
                 int resultado = i * num;
 
                 System.out.println(num + " * " + i + " = " + resultado);
                
+                
+                
             }
         } else {
             System.out.println("FIN");
