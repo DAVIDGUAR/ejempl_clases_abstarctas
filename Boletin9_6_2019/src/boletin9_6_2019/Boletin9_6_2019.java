@@ -15,7 +15,11 @@ public class Boletin9_6_2019 {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+      
+      Trabajadores a=new Trabajadores();
+        a.comprobar_sueldo();
+         
+         
     }
     
 }
