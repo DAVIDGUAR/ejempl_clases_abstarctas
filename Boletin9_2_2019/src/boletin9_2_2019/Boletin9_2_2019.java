@@ -22,23 +22,19 @@ public class Boletin9_2_2019 {
         int incremento = 9;
         int sumaTotal = 0;
         int calculosuma = 0;
-        long multi_total = 0;
-        long calculomulti = 0;
+        double multi_total = 0;
+       double calculomulti = 1;
 
         for (int i = 10; i < 91; i++) {
-            incremento++;
+           
 
             sumaTotal = sumaTotal + i;
+            
+            calculomulti = (calculomulti * i);
 
         }
 
-        for (long b = 10; b < 91; b++) {
-
-            operador++;
-
-            calculomulti = (calculomulti * b);
-
-        }
+      
         System.out.println("Suma : " + sumaTotal);
         System.out.println("Multiplicacion : " + calculomulti);
 
