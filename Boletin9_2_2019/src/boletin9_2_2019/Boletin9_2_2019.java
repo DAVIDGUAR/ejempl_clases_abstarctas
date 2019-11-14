@@ -17,38 +17,30 @@ public class Boletin9_2_2019 {
     public static void main(String[] args) {
 
         int num = 0;
-        double nummulti=0;
+        double nummulti = 0;
         double operador = 9;
         int incremento = 9;
-        
-        
-       for (int i = 10; i < 91; i++) {
+        int sumaTotal = 0;
+        int calculosuma = 0;
+        long multi_total = 0;
+        long calculomulti = 0;
+
+        for (int i = 10; i < 91; i++) {
             incremento++;
-           
-            for (int a = 10; a < 91; a++) {
 
-                int calculosuma = a + incremento;
-                System.out.println("Suma : " + a + " + " + incremento + " = " + calculosuma);
-
-            }
+            sumaTotal = sumaTotal + i;
 
         }
 
-        for(double b=10;b<91;b++){
-            
+        for (long b = 10; b < 91; b++) {
+
             operador++;
-            
-            for(double c=10;c<91;c++){
-                
-                 double calculomulti = c * operador;
-                System.out.println("Multiplicacion : " + c + " * " + operador + " = " + calculomulti);
-                
-            }
-            
-            
+
+            calculomulti = (calculomulti * b);
+
         }
-        
-        
-        
+        System.out.println("Suma : " + sumaTotal);
+        System.out.println("Multiplicacion : " + calculomulti);
+
     }
 }
